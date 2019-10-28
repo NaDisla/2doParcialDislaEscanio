@@ -9,5 +9,6 @@ namespace _2doParcialDislaEscanio
     public class CategoryData : GenericRepository<Category>
     {
         //Aquí se heredan los métodos del CRUD.
+        //PruebaPublicar
     }
 }
