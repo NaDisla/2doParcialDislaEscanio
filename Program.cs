@@ -25,6 +25,7 @@ namespace _2doParcialDislaEscanio
         static void Main(string[] args)
         {
             Maximize();
+            AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
